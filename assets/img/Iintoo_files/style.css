@@ -1,0 +1,22 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #2A4A5C;
+    background-color: #EFF6FF;
+
+}
+
+.login-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: center;
+}
+
+section {
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}

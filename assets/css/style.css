@@ -1,0 +1,142 @@
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    color: #2A4A5C;
+    background-color: #EFF6FF;
+
+}
+
+h3, h4 {
+    color: #7B8A92;
+}
+
+.login-page {
+    display: grid;
+    grid-template-columns: 630px 570px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.login-page__info {
+    margin: 0;
+    padding: 80px 70px;
+}
+
+.login-page__img {
+    margin: 0;
+}
+
+.sn-login {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.sn-button {
+    appearance: none;
+    min-width: 200px;
+    border: 0;
+    color: white;
+    padding: 9px 16px;
+    padding-left: 10px;
+    font-family: inherit;
+    font-size: 0.8em;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+}
+
+.sn-button img {
+    width: 15px;
+    height: 15px;
+}
+
+.facebook {
+    background-color: #255A9B;
+}
+
+.linkedin {
+    background-color: #0076B6;
+}
+
+.button-name {
+    padding-left: 15px;
+}
+
+.or {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+.form-contacts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+fieldset {
+    border-width: 1px;
+    height: 30px;
+    width: 180px;
+}
+
+input[type=text] {
+    padding: 2px;
+    border: 0;
+    height: 15px;
+    outline: 0;
+}
+
+.form-contacts label {
+    font-family: inherit;
+    color: #7B8A92;
+    font-weight: 400;
+}
+
+.radio-buttons {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.radio-buttons label {
+    font-family: inherit;
+    font-weight: 700;
+    color: black;
+    padding-right: 20px;
+}
+
+.message {
+    width: 240px;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #7B8A92;
+    box-shadow: 5px 5px 15px 3px #EEEEEE;
+}
+
+.terms {
+    color: #7B8A92;
+    font-size: 0.9em;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.create-button {
+    appearance: none;
+    min-width: 200px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+    padding: 9px 16px;
+    font-family: inherit;
+    font-size: 0.8em;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #3698FB;
+}
