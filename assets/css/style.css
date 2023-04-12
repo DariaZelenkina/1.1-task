@@ -27,6 +27,11 @@ h3, h4 {
 
 .login-page__img {
     margin: 0;
+    background-image: url("../img/bg.jpg");
+}
+
+.login-page__img img {
+    padding: 30px;
 }
 
 .sn-login {
@@ -44,7 +49,7 @@ h3, h4 {
     padding: 9px 16px;
     padding-left: 10px;
     font-family: inherit;
-    font-size: 0.8em;
+    font-size: 0.85em;
     cursor: pointer;
     display: flex;
     align-items: start;
