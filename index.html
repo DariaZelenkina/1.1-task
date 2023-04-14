@@ -5,67 +5,89 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Iintoo</title>
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200;400&display=swap" rel="stylesheet">
+  <title>Iintoo</title>
 </head>
 
 <body>
   <main>
     <div class="login-page">
-      <div class="login-page__img">
+      <section class="login-page__left-container">
         <img src="assets/img/logo.svg" alt="iintoo" width="110px" height="20px">
-      </div>
-      <section class="login-page__info">
-        <h1>Get iintoo it today</h1>
-        <h3>There is no charge or obligation upon registration</h3>
-        <div class="sn-login">
-          <button class="sn-button facebook">
-            <img src="assets/img/facebook.svg" alt="">
+      </section>
+      <section class="login-page__right-container">
+        <div class="login-page__right-container__title">
+          <h1>Get iintoo it today</h1>
+          <h3>There is no charge or obligation upon registration</h3>
+        </div>
+        <div class="socials">
+          <button class="facebook">
+            <img src="assets/img/facebook.svg" alt="Facebook" width="15" height="15">
             <span class="button-name">Register with Facebook</span>
           </button>
-          <button class="sn-button linkedin">
-            <img src="assets/img/linkedin.svg" alt="">
+          <button class="linkedin">
+            <img src="assets/img/linkedin.svg" alt="LinkedIn" width="15" height="15">
             <span class="button-name">Register with LinkedIn</span>
           </button>
         </div>
-        <div class="or">OR</div>
-        <form class="form-contacts">
-          <fieldset>
-            <label for="email">Email</label><br>
-            <input type="text" id="email">
-          </fieldset>
-          <fieldset>
-            <label for="phone">Phone</label><br>
-            <input type="text" id="phone">
-          </fieldset>
-        </form><br>
-        <h2>What type of investor are you?</h2>
-        <h4>Select the type of investor you are below.</h4>
-        <div class="radio-buttons">
-          <input type="radio" name="investor-type" id="indiv" checked>
-          <label for="indiv">Individual</label>
-          <input type="radio" name="investor-type" id="bsn">
-          <label for="bsn">Business</label>
-          <input type="radio" name="investor-type" id="ira">
-          <label for="ira">IRA</label>
-          <input type="radio" name="investor-type" id="trst">
-          <label for="trst">Trust</label>
+        <div class="small-text">
+          <hr><span>OR</span>
+          <hr>
         </div>
-        <div class="message">
-          I am a natural person investing on my own behalf 
-          as a sole owner, joint tenant, or tenant in common.
-        </div>
-        <div class="terms">
-          <input type="checkbox" id="cbx">
-          <label for="cbx">I agree to the terms and receiving notifications 
-            from iintoo 
-            <a href="">View full terms</a>
-          </label>
-        </div>
-        <button class="create-button">Create Account</button>
+        <form class="login-page__right-container__form">
+          <div class="form-inputs">
+            <fieldset class="form-inputs__field">
+              <label for="email">Email</label>
+              <input type="text" id="email">
+            </fieldset>
+            <fieldset class="form-inputs__field">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone">
+            </fieldset>
+          </div>
+          <div class="secondary-title">
+            <h2>What type of investor are you?</h2>
+            <h4>Select the type of investor you are below.</h4>
+          </div>
+          <div class="radio-buttons">
+            <div>
+              <input type="radio" name="investor-type" id="indiv" checked>
+              <label for="indiv">Individual</label>
+            </div>
+            <div>
+              <input type="radio" name="investor-type" id="business">
+              <label for="business">Business</label>
+            </div>
+            <div>
+              <input type="radio" name="investor-type" id="ira">
+              <label for="ira">IRA</label>
+            </div>
+            <div>
+              <input type="radio" name="investor-type" id="trust">
+              <label for="trust">Trust</label>
+            </div>
+          </div>
+          <p class="tooltip-text">
+            I am a natural person investing on my own behalf
+            as a sole owner, joint tenant, or tenant in common.
+          </p>
+          <div class="cehckbox-container">
+            <input type="checkbox" id="cbx">
+            <label for="cbx">
+              I agree to the terms and receiving notifications
+              from iintoo
+              <a href="#">View full terms</a>
+            </label>
+          </div>
+          <div class="submit-button-container">
+            <button type="submit" class="submit-button">
+              Create Account
+            </button>
+          </div>
+        </form>
       </section>
     </div>
   </main>

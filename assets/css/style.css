@@ -1,47 +1,53 @@
 body {
     font-family: 'Barlow', sans-serif;
     font-size: 14px;
-    font-weight: 200;
-    color: #2A4A5C;
     background-color: #EFF6FF;
-
 }
 
-h3, h4 {
+.login-page__right-container__title h1 {
+    font-size: 24px;
+    color: #2A4A5C;
+}
+
+.secondary-title h2 {
+    color: #2A4A5C;
+}
+
+.login-page__right-container__title h3,
+.secondary-title h4 {
     color: #7B8A92;
 }
 
 .login-page {
     display: grid;
     grid-template-columns: 630px 570px;
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 1200px;
+    margin: 40px auto;
     background-color: white;
 }
 
-.login-page__info {
+.login-page__right-container {
     margin: 0;
     padding: 80px 70px;
 }
 
-.login-page__img {
+.login-page__left-container {
     margin: 0;
     background-image: url("../img/bg.jpg");
 }
 
-.login-page__img img {
+.login-page__left-container img {
     padding: 30px;
 }
 
-.sn-login {
+.socials {
     display: flex;
     justify-content: space-between;
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.sn-button {
+.socials button {
     appearance: none;
     min-width: 200px;
     border: 0;
@@ -53,11 +59,6 @@ h3, h4 {
     cursor: pointer;
     display: flex;
     align-items: start;
-}
-
-.sn-button img {
-    width: 15px;
-    height: 15px;
 }
 
 .facebook {
@@ -72,22 +73,35 @@ h3, h4 {
     padding-left: 15px;
 }
 
-.or {
+.small-text {
     text-align: center;
-    padding: 20px;
-    font-size: 0.9em;
+    padding: 30px;
+}
+
+.small-text span {
+    font-size: 0.8em;
     font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
-.form-contacts {
+.small-text hr {
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    border-color: #EEEEEE;
+}
+
+.form-inputs {
     display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    gap: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-fieldset {
+.form-inputs__field {
     border-width: 1px;
+    border-color: #AFAFAF;
     height: 30px;
     width: 180px;
 }
@@ -99,40 +113,48 @@ input[type=text] {
     outline: 0;
 }
 
-.form-contacts label {
-    font-family: inherit;
-    color: #7B8A92;
-    font-weight: 400;
+.form-inputs label {
+    color: #AFAFAF;
+    font-weight: 700;
 }
 
 .radio-buttons {
-    margin-top: 40px;
-    margin-bottom: 20px;
+    display: flex;
+    gap: 35px;
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .radio-buttons label {
-    font-family: inherit;
     font-weight: 700;
     color: black;
-    padding-right: 20px;
+    padding-left: 3px;
 }
 
-.message {
-    width: 240px;
+.tooltip-text {
+    width: 195px;
     padding: 10px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     color: #7B8A92;
     box-shadow: 5px 5px 15px 3px #EEEEEE;
 }
 
-.terms {
+.cehckbox-container {
     color: #7B8A92;
     font-size: 0.9em;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
-.create-button {
+.cehckbox-container label {
+    padding-left: 5px;
+}
+
+.submit-button-container {
+    padding-top: 20px;
+}
+
+.submit-button {
     appearance: none;
     min-width: 200px;
     border: 0;
